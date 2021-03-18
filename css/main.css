@@ -93,6 +93,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     color: #8b352d;
+    padding-left: 2em;
 }
 
 /* Set standard heights for each section */
@@ -126,9 +127,59 @@ footer {
 }
 
 /* Custom Styling */
-header span {
-    color: #1b4d3e;
+/* header */
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
 }
+
+header ul li {
+    padding: 25px;
+    color: #8b352d;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .content-wrapper {
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    display: flex;
+}
+
+header span {
+    color: #3A9951;
+}
+header img {
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1em;
+}
+
+header h2 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+/* portfolio styling */
+#portfolio img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
