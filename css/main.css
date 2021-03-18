@@ -93,7 +93,6 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     color: #8b352d;
-    padding-left: 2em;
 }
 
 /* Set standard heights for each section */
@@ -151,6 +150,7 @@ header .content-wrapper {
     align-items: center;
     height: 650px;
     display: flex;
+    padding-left: 2em;
 }
 
 header span {
@@ -170,6 +170,31 @@ header h1 {
 
 header h2 {
     font-size: 3em;
+    font-weight: normal;
+}
+/* about styling */
+#about {
+    background-color: #3A9951;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 4em 0 4em 0;
+}
+
+#about h3 {
+    font-size: 2.25em;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#about h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.5em;
     font-weight: normal;
 }
 
