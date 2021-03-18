@@ -97,19 +97,19 @@ body {
 
 /* Set standard heights for each section */
 header {
-    height: 800px;
+    min-height: 800px;
 }
 
 section #about {
-    height: 1050px;
+    min-height: 1050px;
 }
 
 section #portfolio {
-    height: 850px;
+    min-height: 850px;
 }
 
 footer {
-    height: 650px;
+    min-height: 650px;
 }
 /* Width containers */
 
@@ -122,7 +122,7 @@ footer {
 }
 
 .third-width {
-    width: 33%;
+    width: 30%;
 }
 
 /* Custom Styling */
@@ -157,8 +157,8 @@ header span {
     color: #3A9951;
 }
 header img {
-    margin-right: 20px;
-    padding-bottom: 20px;
+    margin-right: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 header h1 {
@@ -199,10 +199,51 @@ header h2 {
 }
 
 /* portfolio styling */
+#portfolio {
+  padding: 3em 0 3em 0;
+}
+
+#portfolio h3 {
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 1.5em;
+}
+
+#portfolio .content-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  flex-flow: row wrap;
+}
+#portfolio .third-width {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
 #portfolio img {
-    height: 300px;
-    width: 400px;
+    height: 150px;
+    width: 200px;
     object-fit: cover;
+}
+
+#portfolio #rps {
+  padding-top: 0.5em;
+}
+
+#portfolio h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#portfolio p {
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: center;
 }
 
 /* ==========================================================================
