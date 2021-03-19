@@ -233,6 +233,12 @@ header h2 {
     height: 9.375em;
     width: 12.5em;
     object-fit: cover;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#portfolio img:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.8);
 }
 
 #portfolio .content-text {
