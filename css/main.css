@@ -198,6 +198,12 @@ header h2 {
     font-weight: normal;
 }
 
+#about img {
+  border: 5px solid white;
+  height: 25em;
+  width: 25em;
+}
+
 /* portfolio styling */
 #portfolio {
   padding: 3em 0 3em 0;
@@ -246,6 +252,62 @@ header h2 {
   text-align: center;
 }
 
+/* footer styling */
+#contact {
+  background-color:#3A9951;
+  color: white;
+  padding: 3em 0 3em 0;
+}
+
+#contact h3 {
+  text-align: center;
+  font-size: 2.25em;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  padding-top: 4em;
+}
+
+#contact .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  height: 400px;
+}
+
+#contact h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#contact .third-width {
+  text-align: center;
+}
+
+#contact p {
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 10%;
+}
+
+#contact a {
+  text-decoration: none;
+  color: white;
+}
+
+#contact i {
+  color: white;
+  font-size: 2em;
+  padding: 0 0.5em 0 0.5em;
+}
+
+#contact .copyright{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
