@@ -220,6 +220,7 @@ header h2 {
 #portfolio .content-wrapper{
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin-left: 1.5em;
   margin-right: 1.5em;
   flex-flow: row wrap;
@@ -227,6 +228,7 @@ header h2 {
 #portfolio .third-width {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -236,8 +238,11 @@ header h2 {
     object-fit: cover;
 }
 
-#portfolio #rps {
-  padding-top: 0.5em;
+#portfolio .content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 #portfolio h4 {
@@ -254,9 +259,10 @@ header h2 {
 
 /* footer styling */
 #contact {
+  display: flex;
+  flex-direction: column;
   background-color:#3A9951;
   color: white;
-  padding: 3em 0 3em 0;
 }
 
 #contact h3 {
