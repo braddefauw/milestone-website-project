@@ -306,7 +306,11 @@ header h2 {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  flex-grow: 0;
+}
+
+#contact .copyright p {
+  font-size: 1.125em;
+  font-weight: normal;
 }
 /* ==========================================================================
    Helper classes
