@@ -233,8 +233,8 @@ header h2 {
 }
 
 #portfolio img {
-    height: 150px;
-    width: 200px;
+    height: 9.375em;
+    width: 12.5em;
     object-fit: cover;
 }
 
@@ -277,6 +277,7 @@ header h2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-items: flex-start;
   margin-left: 1.5em;
   margin-right: 1.5em;
   height: 400px;
