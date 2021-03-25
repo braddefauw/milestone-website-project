@@ -93,7 +93,6 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     color: #8b352d;
-    width: 1450px;
 }
 
 /* Set standard heights for each section */
@@ -173,7 +172,7 @@ header h1 {
 header h2 {
     font-size: 3em;
     font-weight: normal;
-    width: 1000px;
+    width: 800px;
 }
 /* about styling */
 #about {
