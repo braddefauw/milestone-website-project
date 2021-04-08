@@ -433,6 +433,10 @@ header h2 {
   .full-width {
     margin-top: 2em;
   }
+
+  .half-width {
+    width: 75%;
+  }
   
   header h1 {
     font-size: 2em;
