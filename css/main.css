@@ -93,6 +93,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     color: #8b352d;
+    max-width: 1600px;
 }
 
 /* Set standard heights for each section */
@@ -424,10 +425,52 @@ header h2 {
 }
 
 @media only screen and (max-width: 600px) {
+  .full-width {
+    margin-top: 2em;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  .header-name {
+    line-height: 2em;
+  }
+
+  header h2 {
+    font-size: 2.5em;
+  }
+
+  header img {
+    height: 1em;
+    width: 1em;
+  }
+
+  header ul {
+    font-size: 1em;
+    justify-content: flex-end;
+  }
+
+  header ul li {
+    padding: 0.25em;
+  }
+  
   .third-width {
     width: 100%;
   }
-  
+
+  #about img {
+    height: 10em;
+    width: auto;
+  }
+  #portfolio {
+    justify-content: space-around;
+  }
+
+  .unplugged-text {
+    margin-bottom: 2em;
+  }
+
   #portfolio h4 {
     font-size: 2.5em;
   }
@@ -442,6 +485,14 @@ header h2 {
 
   #contact {
     justify-content: space-around;
+  }
+
+  #contact h3 {
+    padding-top: 0px;
+  }
+
+  #contact p {
+    line-height: 1.5em;
   }
 }
 
