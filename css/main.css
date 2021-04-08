@@ -93,7 +93,12 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     color: #8b352d;
-    max-width: 1600px;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0;
 }
 
 /* Set standard heights for each section */
@@ -430,7 +435,7 @@ header h2 {
   }
   
   header h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   .header-name {
@@ -438,7 +443,7 @@ header h2 {
   }
 
   header h2 {
-    font-size: 2.5em;
+    font-size: 1.75em;
   }
 
   header img {
@@ -459,6 +464,18 @@ header h2 {
     width: 100%;
   }
 
+  #about h3 {
+    font-size: 1.5em;
+  }
+
+  #about h4 {
+    font-size: 1.25em;
+  }
+
+  #about p {
+    font-size: 1em;
+  }
+
   #about img {
     height: 10em;
     width: auto;
@@ -471,12 +488,16 @@ header h2 {
     margin-bottom: 2em;
   }
 
+  #portfolio h3 {
+    font-size: 1.5em;
+  }
+
   #portfolio h4 {
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
   
   #portfolio p {
-    font-size: 2em;
+    font-size: 1em;
   } 
   
   #contact .content-wrapper {
@@ -489,10 +510,16 @@ header h2 {
 
   #contact h3 {
     padding-top: 0px;
+    font-size: 1.5em;
+  }
+
+  #contact h4 {
+    font-size: 1.25em;
   }
 
   #contact p {
     line-height: 1.5em;
+    font-size: 1em;
   }
 }
 
