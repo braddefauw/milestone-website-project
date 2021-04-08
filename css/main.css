@@ -464,12 +464,8 @@ header button {
   }
 
   header ul {
-    font-size: 1.5em;
+    font-size: 0.75em;
     justify-content: flex-end;
-    display: flex;
-    flex-flow: column;
-    text-align: center;
-    padding: 0px;
   }
 
   header .content-wrapper {
@@ -477,7 +473,7 @@ header button {
   }
 
   header ul li {
-    padding: 0.25em;
+    padding: 0.5em;
   }
   
   .third-width {
